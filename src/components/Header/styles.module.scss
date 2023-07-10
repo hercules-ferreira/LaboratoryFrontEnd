@@ -1,0 +1,52 @@
+.headerContainer{
+  height: 5rem;
+}
+
+.headerContent{
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img{
+    cursor: pointer;
+  }
+
+  
+}
+
+.menuNav{
+  display: flex;
+  align-items: center;
+  
+  a{
+    color: var(--dark-900);
+    padding: 0 0.5rem;
+    display: inline-block;
+    position: relative;
+    transition: color 0.5s;
+
+    & + a {
+      margin-left: 2rem;
+    }
+
+&:hover{
+  color: var(--red-500)
+}
+
+
+button{
+margin-left: 2rem;
+background: transparent;
+border: 0;
+
+
+
+
+}
+  }
+}
+

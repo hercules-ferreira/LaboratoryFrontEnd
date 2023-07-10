@@ -1,0 +1,144 @@
+.container{
+  max-width: 720px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container{
+  color: #8A8A8A
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;  
+}
+
+.textarea{
+  width: 100%;
+  min-height: 120px;
+  resize: none;
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.select{
+  width: 100%;
+  height: 40px;
+  border-radius: 0.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--gray-100);
+  background-color: var(--gray-000);
+  border: 1px solid var(--gray-100);
+  padding: 0 0.5rem;
+}
+
+.input{
+  margin-bottom: 1rem;
+  height: 35px;
+  border: 0;
+  border-radius: 0.2rem;
+  color: var(--dark-900);
+  padding: 1rem;
+  border: 1px solid var(--dark-700);
+
+}
+
+.input::placeholder{
+  color: rgba(70, 90, 126, 0.4)!important;
+}
+
+.buttonAdd{
+  height: 35px;
+  font-size: 1.2rem;
+    background-color: #FFFFFF;  
+    border: 0;
+    padding: 0.4rem;
+    margin-bottom: 0.8rem;
+    border-radius: 0.2rem;
+    color: var(--dark-900);
+    border: 1px solid var(--dark-700);
+    transition: filter 0.2s;
+    background: var(--gray-000);
+
+
+    cursor: pointer;
+transition: transform 0.5s !important;
+
+
+&:hover{
+  transform: scale(1.01); // aumenta em 101%
+  filter: brightness(1.08)
+}
+
+
+  
+    // &[disabled]{
+    //   cursor: not-allowed;
+    //   svg{
+    //     animation: animate 2s infinite;
+    //   }
+    // }
+  
+    // &:hover{
+    //   filter: brightness(1.08)
+    // }
+  
+  }
+  
+  .buttonText{
+    color: var(--dark-700);
+  }
+  
+  @keyframes animate{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+
+.headerContent{
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  img{
+    cursor: pointer;
+  }
+
+  
+}
+
+.menuNav{
+  display: flex;
+  align-items: center;
+  
+  a{
+    color: var(--dark-900);
+    padding: 0 0.5rem;
+    display: inline-block;
+    position: relative;
+    transition: color 0.5s;
+
+    & + a {
+      margin-left: 2rem;
+    }
+
+&:hover{
+  color: var(--red-500)
+}
+
+
+
+  }
+}
+
+

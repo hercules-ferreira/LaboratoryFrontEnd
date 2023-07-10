@@ -1,0 +1,35 @@
+{
+    "cSpell.blockCheckingWhenLineLengthGreaterThan": 1000,
+    "cSpell.words": [
+        "acessar",
+        "ACESSAR",
+        "acesso",
+        "cadastrar",
+        "Cadastro",
+        "caminhos",
+        "criado",
+        "deslogar",
+        "erro",
+        "Erro",
+        "ERRO",
+        "Expirar",
+        "Logado",
+        "nextauth",
+        "nosso",
+        "Passar",
+        "Preencha",
+        "proximas",
+        "Redirecionar",
+        "requisiçoes",
+        "signup",
+        "sucesso",
+        "terao",
+        "toastify"
+    ],
+    "cSpell.enableFiletypes": [
+        "typescriptreact"
+    ],
+    "cSpell.enabled": true,
+    "prisma-smart-formatter.typescript.defaultFormatter": "vscode.typescript-language-features",
+    "prisma-smart-formatter.prisma.defaultFormatter": "Prisma.prisma"
+}
